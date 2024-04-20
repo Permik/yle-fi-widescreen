@@ -1,0 +1,21 @@
+@-moz-document url("https://yle.fi/") {
+#yle__contentAnchor {
+    margin: 0px;
+    max-width: 100%;
+}
+
+main{
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    flex-grow: 1 !important;
+    max-width: initial !important;
+}
+
+main > div > div {
+    flex-grow: 1;
+}
+
+.no-print{
+    max-width: 0px;
+}
+}
